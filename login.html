@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      /* Inline CSS styles */
+      header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px ;
+     }
+     body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      form {
+        background-color: #ffffff;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+      }
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    div {
+        height: 56.2vh;
+        margin-top: 50px;
+    }
+    </style>
+  </head>
+  <body style="margin: 0%;">
+    <header>
+		<h1 style="font-size: 30px; font-weight: 800;">Smart Parking</h1>
+	</header>
+    <h1 style="text-align: center; margin-top: 50px;">Login Page</h1>
+    <div>
+        <form action="gt1.html" >
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <input type="submit" value="Login">
+          </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Smart Parking</p>
+    </footer>
+  </body>
+</html>

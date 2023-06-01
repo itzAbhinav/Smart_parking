@@ -1,0 +1,498 @@
+
+.button-49,
+.button-49:after {
+  width: 150px;
+  height: 76px;
+  line-height: 78px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-49:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'ALTERNATE TEXT';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+.button-49:hover:after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .button-49,
+  .button-49:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px;
+  }
+}
+
+            .about_us{
+                text-align: center;
+                background-image: url("https://img.freepik.com/premium-vector/abstract-geometric-polygon-background-wallpaper-header-cover-with-triangle-shape-low-polly-blue_206846-1173.jpg?w=1060");;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                height: 90px;
+                border-collapse: collapse;
+                border-width: 10px;
+                border-color: #20243f;
+                border-style: solid;
+                opacity: 0.9;
+                
+            }
+            
+              table.GeneratedTable {
+            /*width: 500px;
+            margin-left: 500px;
+            border-radius: 20px;
+            padding: 30%;
+            
+            background-color: #ffffff;
+            border-collapse: collapse;
+            border-width: 2px;
+            border-color: #ffcc00;
+            border-style: solid;
+            color: #000000;*/
+            width: 500px;
+          background-color: #12a588;
+          margin-left: 500px;
+          border-collapse: collapse;
+          border-width: 10px;
+          border-color: #20243f;
+          border-style: solid;
+          color: #3B3535;
+          border-spacing: 0;
+          border-collapse: separate;
+          border-radius: 10px
+          }
+          
+          table.GeneratedTable td, table.GeneratedTable th {
+            border-width: 2px;
+            border-color: #6cb7a5;
+            border-style: solid;
+            padding: 3px;
+          }
+          
+          table.GeneratedTable thead {
+            background-color: #6cb7a5;
+          }
+          .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            background-image: url("https://img.freepik.com/premium-vector/abstract-geometric-polygon-background-wallpaper-header-cover-with-triangle-shape-low-polly-blue_206846-1173.jpg?w=1060");;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding: 40px 80px;
+            border-collapse: collapse;
+                border-width: 10px;
+                border-color: #20243f;
+                border-style: solid;
+                opacity: 0.9;
+          }
+          
+          .nav-items {
+            display: flex;
+           
+            align-items: center;
+           
+            position: relative;
+            margin-right: 20px;
+          }
+          .button-33 {
+        background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-69 {
+    background-color: #a2beda;
+border-radius: 100px;
+box-shadow: rgba(71, 75, 183, 0.35) 0 -25px 18px -14px inset,rgba(71, 75, 183, 0.35) 0 1px 2px,rgba(71, 75, 183, 0.35) 0 2px 4px,rgba(71, 75, 183, 0.35) 0 4px 8px,rgba(71, 75, 183, 0.35) 0 8px 16px,rgba(71, 75, 183, 0.35) 0 16px 32px;
+color: rgb(23, 98, 168);
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 10px 30px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-69:hover {
+    box-shadow: rgba(71, 75, 183, 0.35) 0 -25px 18px -14px inset,rgba(71, 75, 183, 0.35) 0 1px 2px,rgba(71, 75, 183, 0.35) 0 2px 4px,rgba(71, 75, 183, 0.35) 0 4px 8px,rgba(71, 75, 183, 0.35) 0 8px 16px,rgba(71, 75, 183, 0.35) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.button-35 {
+        background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-35:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.hero-image {
+  background-image: url("https://www.geotab.com/CMS-Media-production/Blog/NA/_2020/Aug/reverse-parking/blog-why-reverse-parking-hero.jpg");
+  background-color: #cccccc;
+  height: 612px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  .h11 h1{
+  color: hsl(0, 0%, 28%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+.h11 span {
+  transition: 0.5s ease-out;
+}
+.h11 h1:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.h11 h1:hover span:nth-child(1):after {
+  content: "";
+}
+
+.h11 h1:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+.h11 h1:hover span {
+  color: #f40a0a;
+  text-shadow: 0 0 10px #f46868, 0 0 20px #f46868, 0 0 40px #f46868;
+}
+
+.h11 h2{
+  color: hsl(0, 0%, 28%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+.h11 span {
+  transition: 0.5s ease-out;
+}
+.h11 h2:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.h11 h2:hover span:nth-child(1):after {
+  content: "-";
+}
+
+.h11 h2:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+.h11 h2:hover span {
+  color: #ffffff;
+  text-shadow: 0 0 10px #e9e9e9, 0 0 20px #eeeded, 0 0 40px #efefef;
+}
+
+.h11 h3{
+    color: hsl(0, 0%, 28%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  .h11 span {
+    transition: 0.5s ease-out;
+  }
+  .h11 h3:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .h11 h3:hover span:nth-child(1):after {
+    content: "";
+  }
+  
+  .h11 h3:hover span:nth-child(2) {
+    margin-left: 20px;
+  }
+  .h11 h3:hover span {
+    color: #5b0c0c;
+    text-shadow: 0 0 10px #5d1b1b, 0 0 20px #5d1b1b, 0 0 40px #5d1b1b;
+  }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302f49;
+    padding: 40px 80px;
+  }
+
+  .footer .copy {
+    color: #fff;
+  }
+  .video-container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+
+}
+
+.video-container video {
+    
+  width: 100%;
+  height:100%;
+  z-index: -100;
+  position: absolute;
+  object-fit: cover;
+  
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.div_parent {
+    width : 100%;
+}
+
+.div_1{
+    width: 50%; height: 100px; float: left; background: green;
+}
+
+.div_2{
+    margin-left: 50%; height: 100px; background: blue;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    opacity: 0.8;
+  }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-vector/flat-hand-drawn-female-team-leader_52683-54824.jpg?w=1060&t=st=1685190934~exp=1685191534~hmac=8389d7b3ca5e9a9a7560348eb3211979a99fb74c0fbafdc3f187d5b98b33c063");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .container {
+    padding: 0 16px;
+    background-color: rgba(140, 215, 248, 0.821);
+    border-radius: 20px;
+    border-collapse: collapse;
+    border-width: 10px;
+    border-color: #20243f;
+    border-style: solid;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  
+  .title {
+    color: rgb(128, 128, 128);
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .back_1 {background-image: url("https://img.freepik.com/premium-vector/abstract-geometric-polygon-background-wallpaper-header-cover-with-triangle-shape-low-polly-blue_206846-1173.jpg?w=1060");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+              padding: 40px 80px;
+              
+              border-collapse: collapse;
+              border-width: 10px;
+    border-color: #20243f;
+    border-style: solid;
+  }
+
+body{
+    margin: 0 px;
+    font-family: sans-serif;
+}
+
+.section{
+    background-color: #20243f;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+
+.section h1{
+    margin: 0;
+    color:#6cb7a5;
+}
+
+.section p{
+   color:#12a588;
+   margin-right: 15px;
+}

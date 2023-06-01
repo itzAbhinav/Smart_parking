@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px ;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.hero {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-text {
+	max-width: 500px;
+}
+
+.hero-text h2 {
+	font-size: 42px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.hero-text p {
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.hero-image {
+	flex: 1;
+	max-width: 600px;
+	margin-left: 40px;
+}
+
+.hero-image img {
+	max-width: 100%;
+}
+
+.search {
+	margin-top: 40px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+}
+
+.results {
+	margin-top: 40px;
+}
+
+.results h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.parking-spot {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.parking-image {
+	flex: 1;
+	max-width: 200px;
+	margin-right: 40px;
+}
+
+.parking-image img {
+	max-width: 100%;
+}
+
+.parking-info {
+	flex: 1;
+}
+
+.parking-info h4 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.parking-info p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}

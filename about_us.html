@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="smart_par_main.css" >
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  opacity: 0.8;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-vector/flat-hand-drawn-female-team-leader_52683-54824.jpg?w=1060&t=st=1685190934~exp=1685191534~hmac=8389d7b3ca5e9a9a7560348eb3211979a99fb74c0fbafdc3f187d5b98b33c063");
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  padding: 0 16px;
+  background-color: rgba(140, 215, 248, 0.821);
+  border-radius: 20px;
+  border-collapse: collapse;
+  border-width: 10px;
+  border-color: #20243f;
+  border-style: solid;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.title {
+  color: rgb(128, 128, 128);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.back_1 {background-image: url("https://img.freepik.com/premium-vector/abstract-geometric-polygon-background-wallpaper-header-cover-with-triangle-shape-low-polly-blue_206846-1173.jpg?w=1060");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding: 40px 80px;
+            
+            border-collapse: collapse;
+            border-width: 10px;
+  border-color: #20243f;
+  border-style: solid;
+}
+    
+</style>
+</head>
+<body >
+
+<div class="about-section">
+  <div class="hero-text">
+    <div class="h11">
+      <h1>The <span>Crew</span></h1>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: darkslategrey;font-size: 30px;">Group of Incredible people</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: darkslategrey;font-size: 20px;">Resposible for smart and hassel-free parking</p>
+      <p><h3><span>In Amrita</span></h3></p>
+    </div>
+  </div> 
+</div>
+<div class="back_1">
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Abhinav</h2>
+        <p class="title">UI Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>abhinav@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Prashant</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Prashant@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>vivek</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Vivek@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container" >
+        <h2>Amritesh</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Amritesg@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+

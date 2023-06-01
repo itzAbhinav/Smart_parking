@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Parking UI</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="gt1.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<header>
+		<h1>Smart Parking UI</h1>
+		<p>Find an available parking slot in real-time</p>
+	</header>
+	<main>
+		<section class="parking-grid">
+			<div class="parking-slot available">
+				<div class="parking-slot-overlay">
+					<span>Slot 1</span>
+				</div>
+			</div>
+			<div class="parking-slot">
+				<div class="parking-slot-overlay">
+					<span>Slot 2</span>
+				</div>
+			</div>
+			<div class="parking-slot available">
+				<div class="parking-slot-overlay">
+					<span>Slot 3</span>
+				</div>
+			</div>			
+		</section>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<section class="parking-info">
+			<div class="parking-info-header">
+				<h2>Parking Information</h2>
+			</div>
+			<div class="parking-info-content">
+				<div class="parking-info-item available">
+					<i class="material-icons">&#xe837;</i>
+					<div class="parking-info-text">
+						<h3>Available</h3>
+						<p>1 slots</p>
+					</div>
+				</div>
+				<div class="parking-info-item occupied">
+					<i class="material-icons">&#xe837;</i>
+					<div class="parking-info-text">
+						<h3>Occupied</h3>
+						<p>2 slots</p>
+					</div>
+				</div>
+				<div class="parking-info-item reserved">
+					<i class="material-icons">&#xe837;</i>
+					<div class="parking-info-text">
+						<h3>Reserved</h3>
+						<p>0 slots</p>
+					</div>
+				</div>				
+				<div class="parking-info-item Total">
+					<i class="material-icons">&#xe837;</i>
+					<div class="parking-info-text">
+						<h3>Total Slots</h3>
+						<p>3 slots</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

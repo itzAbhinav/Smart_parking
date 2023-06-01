@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parking UI</title>
+    <style>
+    header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px ;
+     }
+      body {
+        margin: 0%;
+        background-color: #f1f1f1;
+        font-family: Arial, sans-serif;
+      }
+      .main{
+        height: 67vh;
+      }
+      .parking {
+        margin: 50px auto;
+        max-width: 500px;
+        border: 3px solid #f1f1f1;
+        background-color: white;
+        padding: 20px;
+      }
+      .parking h1 {
+        text-align: center;
+      }
+      .parking h2 {
+        margin-top: 20px;
+      }
+      .parking ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .parking li {
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #4CAF50;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .parking li.empty {
+        background-color: #ccc;
+      }
+      nav {
+        text-align: center;
+        display: flex; /* 1 */
+        justify-content: space-between; /* 2 */
+        padding: 1rem 2rem;   
+        background: #cfd8dc; /* 4 */
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+		<h1 style="font-size: 30px; font-weight: 800;">Smart Parking</h1>
+	</header>
+    <div class="main">
+        <div class="parking">
+            <h1>Parking Lot</h1>
+            <h2>Available Spaces: 5</h2>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li class="empty">3</li>
+              <li class="empty">4</li>
+              <li>5</li>
+              <li class="empty">6</li>
+              <li class="empty">7</li>
+              <li>8</li>
+              <li>9</li>
+              <li class="empty">10</li>
+              <li>P</li>
+            </ul>
+          </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Smart Parking</p>
+    </footer>
+  </body>  
+</html>
